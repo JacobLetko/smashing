@@ -22,7 +22,9 @@ GameObject:
   - component: {fileID: 33101016431219116}
   - component: {fileID: 23546798961426736}
   - component: {fileID: 114773068128045872}
-  m_Layer: 0
+  - component: {fileID: 54425164401415332}
+  - component: {fileID: 65752658206194544}
+  m_Layer: 8
   m_Name: Vase_01 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36,7 +38,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1575614916377194}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: 4.8805966, y: 0.981, z: -19.31}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 0}
@@ -83,6 +85,33 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1575614916377194}
   m_Mesh: {fileID: 4300000, guid: 9744d26cfd6b68142a422c8f2fd6402d, type: 3}
+--- !u!54 &54425164401415332
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1575614916377194}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &65752658206194544
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1575614916377194}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0048598466, y: 0.0048598456, z: 0.008219728}
+  m_Center: {x: 0, y: 0, z: 0.0041162753}
 --- !u!114 &114773068128045872
 MonoBehaviour:
   m_ObjectHideFlags: 1
