@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// moves player forward backward left and right based on wich way the obj is facing
+/// </summary>
 public class PlayerMovement : MonoBehaviour
 {
     public float speed = 6.0F;

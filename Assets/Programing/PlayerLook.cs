@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// attach to the camera and disable the player collieder to 
+/// </summary>
 public class PlayerLook : MonoBehaviour
 {
 
