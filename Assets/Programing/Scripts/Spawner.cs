@@ -7,4 +7,7 @@ public class Spawner : MonoBehaviour
 {
     bool destroy;
     public List<GameObject> objs = new List<GameObject>();
+    public float timer;
+
+
 }

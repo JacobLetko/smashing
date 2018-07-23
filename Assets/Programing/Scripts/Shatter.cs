@@ -9,6 +9,7 @@ using UnityEngine;
 public class Shatter : MonoBehaviour
 {
     public GameObject BrokenVersion;
+    public Transition transition;
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -18,5 +19,18 @@ public class Shatter : MonoBehaviour
             Destroy(gameObject);
             Destroy(copy, 2);
         }
+    }
+
+    public void Break()
+    {
+        GameObject copy = Instantiate(BrokenVersion, transform.position, transform.rotation);
+        Destroy(gameObject);
+    }
+
+    private void OnMouseDown()
+    {
+        GetComponent<Shatter>().Break();
+        if(transition != null)
+        transition.animator.SetTrigger("FadeIn");
     }
 }
