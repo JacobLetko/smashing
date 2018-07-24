@@ -125,3 +125,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrokenVersion: {fileID: 1083547372721722, guid: d80f88c821792624d8e08e85f3d5c506,
     type: 2}
+  transition: {fileID: 0}

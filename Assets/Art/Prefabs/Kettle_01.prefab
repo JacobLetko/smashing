@@ -23,7 +23,8 @@ GameObject:
   - component: {fileID: 23888465342703662}
   - component: {fileID: 65925568520842362}
   - component: {fileID: 114933744839641084}
-  m_Layer: 0
+  - component: {fileID: 54978051314029842}
+  m_Layer: 8
   m_Name: Kettle_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84,6 +85,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1273088692727582}
   m_Mesh: {fileID: 4300000, guid: 66ed4f37051b2ba45b96b81e09f97595, type: 3}
+--- !u!54 &54978051314029842
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1273088692727582}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!65 &65925568520842362
 BoxCollider:
   m_ObjectHideFlags: 1
