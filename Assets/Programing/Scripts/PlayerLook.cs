@@ -40,15 +40,15 @@ public class PlayerLook : MonoBehaviour
         targetRotCam.z = 0;
         targetRotBody.y += rotAmountX;
 
-        if (xAxisClamp > 45)
+        if (xAxisClamp > 60)
         {
-            xAxisClamp = 45;
-            targetRotCam.x = 45;
+            xAxisClamp = 60;
+            targetRotCam.x = 60;
         }
-        else if (xAxisClamp < -45)
+        else if (xAxisClamp < -60)
         {
-            xAxisClamp = -45;
-            targetRotCam.x = 315;
+            xAxisClamp = -60;
+            targetRotCam.x = 300;
         }
 
 
