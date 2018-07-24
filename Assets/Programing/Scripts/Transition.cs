@@ -19,4 +19,9 @@ public class Transition : MonoBehaviour {
         else if (quit == null)
             Application.Quit();
     }
+
+    public void Quit()
+    {
+        Application.Quit();
+    }
 }

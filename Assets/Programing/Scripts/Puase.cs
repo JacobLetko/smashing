@@ -26,7 +26,7 @@ public class Puase : MonoBehaviour {
             Cursor.visible = true;
         }
 
-        if (Input.GetKeyDown("escape") && paused == true)
+        else if (Input.GetKeyDown("escape") && paused == true)
             resume();
     }
 

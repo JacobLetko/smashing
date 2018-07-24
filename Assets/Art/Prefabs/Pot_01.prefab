@@ -107,5 +107,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dfa494df6a6e2048886578c419dfaa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BrokenVersion: {fileID: 0}
+  BrokenVersion: {fileID: 1431390802016872, guid: 2c93a10985a962b47a8a04b1d4546726,
+    type: 2}
   transition: {fileID: 0}
