@@ -16,7 +16,6 @@ public class Shatter : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             Break();
-            
         }
     }
 
