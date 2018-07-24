@@ -17,7 +17,7 @@ public class Shatter : MonoBehaviour
         {
             GameObject copy = Instantiate(BrokenVersion, transform.position, transform.rotation);
             Destroy(gameObject);
-            Destroy(copy, 2);
+            Destroy(copy, 10);
         }
     }
 
