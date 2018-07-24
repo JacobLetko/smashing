@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33945814765189576}
   - component: {fileID: 23979706018669394}
   - component: {fileID: 95029502483262238}
+  - component: {fileID: 65572952895797212}
   - component: {fileID: 114704813243602924}
   m_Layer: 0
   m_Name: Plate_01
@@ -84,6 +85,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1902128274676904}
   m_Mesh: {fileID: 4300000, guid: 153d979fb709cb44a8968e6c3df4e796, type: 3}
+--- !u!65 &65572952895797212
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1902128274676904}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.4643373, y: 0.38936523, z: 4.4643383}
+  m_Center: {x: 0.00000023841858, y: 0.19468383, z: -0.00000023841858}
 --- !u!95 &95029502483262238
 Animator:
   serializedVersion: 3
@@ -114,3 +127,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrokenVersion: {fileID: 1141812880726376, guid: d00ed76c7db9db944a714a539bbe02e4,
     type: 2}
+  transition: {fileID: 0}
