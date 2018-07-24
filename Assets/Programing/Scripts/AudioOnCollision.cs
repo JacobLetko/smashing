@@ -28,4 +28,11 @@ public class AudioOnCollision : MonoBehaviour
 
         score.text = "Score: " + counter.ToString();
     }
+
+    private void Update()
+    {
+        // "Achevments"
+        if (counter > 50)
+        { }
+    }
 }
