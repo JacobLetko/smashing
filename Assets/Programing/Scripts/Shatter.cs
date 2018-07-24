@@ -15,9 +15,8 @@ public class Shatter : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            GameObject copy = Instantiate(BrokenVersion, transform.position, transform.rotation);
-            Destroy(gameObject);
-            Destroy(copy, 10);
+            Break();
+            
         }
     }
 
@@ -25,11 +24,12 @@ public class Shatter : MonoBehaviour
     {
         GameObject copy = Instantiate(BrokenVersion, transform.position, transform.rotation);
         Destroy(gameObject);
+        Destroy(copy, 5);
     }
 
     private void OnMouseDown()
     {
-        GetComponent<Shatter>().Break();
+        Break();
         if(transition != null)
         transition.animator.SetTrigger("FadeIn");
     }
