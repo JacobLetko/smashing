@@ -25,7 +25,6 @@ public class AudioOnCollision : MonoBehaviour
 
         if (!audioSource.isPlaying)
         audioSource.Play();
-        //audioSource.loop = false;
 
         score.text = "Score: " + counter.ToString();
     }
