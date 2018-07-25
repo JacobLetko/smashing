@@ -11,19 +11,11 @@ public class Shatter : MonoBehaviour
     public GameObject BrokenVersion;
     public Transition transition;
 
-    AudioSource audioSource;
-
-    private void Start()
-    {
-        audioSource = GetComponent<AudioSource>();
-    }
-
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Player")
         {
             Break();
-            audioSource.Play();
         }
     }
 
