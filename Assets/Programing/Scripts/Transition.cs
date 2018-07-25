@@ -8,13 +8,18 @@ public class Transition : MonoBehaviour {
     public GameObject quit;
     public GameObject start;
 
+    public GameObject music;
+
     public Animator animator;
 
 
     public void fadeDone()
     {
         if (start == null)
+        {
+            DontDestroyOnLoad(music);
             SceneManager.LoadScene("Test");
+        }
 
         else if (quit == null)
             Application.Quit();

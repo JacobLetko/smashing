@@ -104,7 +104,7 @@ Animator:
   m_GameObject: {fileID: 1427651471818688}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: abfdee81fe207ab4d92a48ac6ca4808e, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -125,6 +125,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   quit: {fileID: 0}
   start: {fileID: 0}
+  music: {fileID: 0}
   animator: {fileID: 95307346714569166}
 --- !u!114 &114223472149211492
 MonoBehaviour:
